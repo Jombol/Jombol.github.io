@@ -1,4 +1,28 @@
+
 #body{
     max-width: 600px;
     margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+    nav {
+  position: fixed;
+  top: 0%;
+  left: 0;
+  width: 20%;
+  z-index: 1000;
+  gap: 15px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.about-container {
+  display: flex;
+  align-items: flex-start; 
+  gap: 20px;              
+}
+
+.about-text h2 {
+  margin-top: 0;           
 }
